@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9915170328F7EC0000B98321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915170228F7EC0000B98321 /* AppDelegate.m */; };
+		9915170628F7EC0000B98321 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915170528F7EC0000B98321 /* SceneDelegate.m */; };
+		9915170928F7EC0000B98321 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915170828F7EC0000B98321 /* ViewController.m */; };
+		9915170C28F7EC0000B98321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9915170A28F7EC0000B98321 /* Main.storyboard */; };
+		9915170F28F7EC0000B98321 /* TKDragAndDrop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9915170D28F7EC0000B98321 /* TKDragAndDrop.xcdatamodeld */; };
+		9915171128F7EC0300B98321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9915171028F7EC0300B98321 /* Assets.xcassets */; };
+		9915171428F7EC0300B98321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9915171228F7EC0300B98321 /* LaunchScreen.storyboard */; };
+		9915171728F7EC0300B98321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915171628F7EC0300B98321 /* main.m */; };
+		9915172128F7EC0400B98321 /* TKDragAndDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915172028F7EC0400B98321 /* TKDragAndDropTests.m */; };
+		9915172B28F7EC0400B98321 /* TKDragAndDropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915172A28F7EC0400B98321 /* TKDragAndDropUITests.m */; };
+		9915172D28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915172C28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9915171D28F7EC0400B98321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991516F628F7EC0000B98321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991516FD28F7EC0000B98321;
+			remoteInfo = TKDragAndDrop;
+		};
+		9915172728F7EC0400B98321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991516F628F7EC0000B98321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991516FD28F7EC0000B98321;
+			remoteInfo = TKDragAndDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		991516FE28F7EC0000B98321 /* TKDragAndDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKDragAndDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9915170128F7EC0000B98321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9915170228F7EC0000B98321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9915170428F7EC0000B98321 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9915170528F7EC0000B98321 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9915170728F7EC0000B98321 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9915170828F7EC0000B98321 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9915170B28F7EC0000B98321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9915170E28F7EC0000B98321 /* TKDragAndDrop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TKDragAndDrop.xcdatamodel; sourceTree = "<group>"; };
+		9915171028F7EC0300B98321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9915171328F7EC0300B98321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9915171528F7EC0300B98321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9915171628F7EC0300B98321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9915171C28F7EC0400B98321 /* TKDragAndDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKDragAndDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9915172028F7EC0400B98321 /* TKDragAndDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDragAndDropTests.m; sourceTree = "<group>"; };
+		9915172628F7EC0400B98321 /* TKDragAndDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKDragAndDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9915172A28F7EC0400B98321 /* TKDragAndDropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDragAndDropUITests.m; sourceTree = "<group>"; };
+		9915172C28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDragAndDropUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991516FB28F7EC0000B98321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9915171928F7EC0400B98321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9915172328F7EC0400B98321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991516F528F7EC0000B98321 = {
+			isa = PBXGroup;
+			children = (
+				9915170028F7EC0000B98321 /* TKDragAndDrop */,
+				9915171F28F7EC0400B98321 /* TKDragAndDropTests */,
+				9915172928F7EC0400B98321 /* TKDragAndDropUITests */,
+				991516FF28F7EC0000B98321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991516FF28F7EC0000B98321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991516FE28F7EC0000B98321 /* TKDragAndDrop.app */,
+				9915171C28F7EC0400B98321 /* TKDragAndDropTests.xctest */,
+				9915172628F7EC0400B98321 /* TKDragAndDropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9915170028F7EC0000B98321 /* TKDragAndDrop */ = {
+			isa = PBXGroup;
+			children = (
+				9915170128F7EC0000B98321 /* AppDelegate.h */,
+				9915170228F7EC0000B98321 /* AppDelegate.m */,
+				9915170428F7EC0000B98321 /* SceneDelegate.h */,
+				9915170528F7EC0000B98321 /* SceneDelegate.m */,
+				9915170728F7EC0000B98321 /* ViewController.h */,
+				9915170828F7EC0000B98321 /* ViewController.m */,
+				9915170A28F7EC0000B98321 /* Main.storyboard */,
+				9915171028F7EC0300B98321 /* Assets.xcassets */,
+				9915171228F7EC0300B98321 /* LaunchScreen.storyboard */,
+				9915171528F7EC0300B98321 /* Info.plist */,
+				9915171628F7EC0300B98321 /* main.m */,
+				9915170D28F7EC0000B98321 /* TKDragAndDrop.xcdatamodeld */,
+			);
+			path = TKDragAndDrop;
+			sourceTree = "<group>";
+		};
+		9915171F28F7EC0400B98321 /* TKDragAndDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				9915172028F7EC0400B98321 /* TKDragAndDropTests.m */,
+			);
+			path = TKDragAndDropTests;
+			sourceTree = "<group>";
+		};
+		9915172928F7EC0400B98321 /* TKDragAndDropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9915172A28F7EC0400B98321 /* TKDragAndDropUITests.m */,
+				9915172C28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m */,
+			);
+			path = TKDragAndDropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991516FD28F7EC0000B98321 /* TKDragAndDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9915173028F7EC0400B98321 /* Build configuration list for PBXNativeTarget "TKDragAndDrop" */;
+			buildPhases = (
+				991516FA28F7EC0000B98321 /* Sources */,
+				991516FB28F7EC0000B98321 /* Frameworks */,
+				991516FC28F7EC0000B98321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKDragAndDrop;
+			productName = TKDragAndDrop;
+			productReference = 991516FE28F7EC0000B98321 /* TKDragAndDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9915171B28F7EC0400B98321 /* TKDragAndDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9915173328F7EC0400B98321 /* Build configuration list for PBXNativeTarget "TKDragAndDropTests" */;
+			buildPhases = (
+				9915171828F7EC0400B98321 /* Sources */,
+				9915171928F7EC0400B98321 /* Frameworks */,
+				9915171A28F7EC0400B98321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9915171E28F7EC0400B98321 /* PBXTargetDependency */,
+			);
+			name = TKDragAndDropTests;
+			productName = TKDragAndDropTests;
+			productReference = 9915171C28F7EC0400B98321 /* TKDragAndDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9915172528F7EC0400B98321 /* TKDragAndDropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9915173628F7EC0400B98321 /* Build configuration list for PBXNativeTarget "TKDragAndDropUITests" */;
+			buildPhases = (
+				9915172228F7EC0400B98321 /* Sources */,
+				9915172328F7EC0400B98321 /* Frameworks */,
+				9915172428F7EC0400B98321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9915172828F7EC0400B98321 /* PBXTargetDependency */,
+			);
+			name = TKDragAndDropUITests;
+			productName = TKDragAndDropUITests;
+			productReference = 9915172628F7EC0400B98321 /* TKDragAndDropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991516F628F7EC0000B98321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					991516FD28F7EC0000B98321 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					9915171B28F7EC0400B98321 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 991516FD28F7EC0000B98321;
+					};
+					9915172528F7EC0400B98321 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 991516FD28F7EC0000B98321;
+					};
+				};
+			};
+			buildConfigurationList = 991516F928F7EC0000B98321 /* Build configuration list for PBXProject "TKDragAndDrop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991516F528F7EC0000B98321;
+			productRefGroup = 991516FF28F7EC0000B98321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991516FD28F7EC0000B98321 /* TKDragAndDrop */,
+				9915171B28F7EC0400B98321 /* TKDragAndDropTests */,
+				9915172528F7EC0400B98321 /* TKDragAndDropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991516FC28F7EC0000B98321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9915171428F7EC0300B98321 /* LaunchScreen.storyboard in Resources */,
+				9915171128F7EC0300B98321 /* Assets.xcassets in Resources */,
+				9915170C28F7EC0000B98321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9915171A28F7EC0400B98321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9915172428F7EC0400B98321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991516FA28F7EC0000B98321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9915171728F7EC0300B98321 /* main.m in Sources */,
+				9915170928F7EC0000B98321 /* ViewController.m in Sources */,
+				9915170328F7EC0000B98321 /* AppDelegate.m in Sources */,
+				9915170628F7EC0000B98321 /* SceneDelegate.m in Sources */,
+				9915170F28F7EC0000B98321 /* TKDragAndDrop.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9915171828F7EC0400B98321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9915172128F7EC0400B98321 /* TKDragAndDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9915172228F7EC0400B98321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9915172D28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m in Sources */,
+				9915172B28F7EC0400B98321 /* TKDragAndDropUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9915171E28F7EC0400B98321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991516FD28F7EC0000B98321 /* TKDragAndDrop */;
+			targetProxy = 9915171D28F7EC0400B98321 /* PBXContainerItemProxy */;
+		};
+		9915172828F7EC0400B98321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991516FD28F7EC0000B98321 /* TKDragAndDrop */;
+			targetProxy = 9915172728F7EC0400B98321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9915170A28F7EC0000B98321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9915170B28F7EC0000B98321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9915171228F7EC0300B98321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9915171328F7EC0300B98321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9915172E28F7EC0400B98321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9915172F28F7EC0400B98321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9915173128F7EC0400B98321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CLC5THH3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TKDragAndDrop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timothy.TKDragAndDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9915173228F7EC0400B98321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CLC5THH3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TKDragAndDrop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timothy.TKDragAndDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9915173428F7EC0400B98321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CLC5THH3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timothy.TKDragAndDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKDragAndDrop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TKDragAndDrop";
+			};
+			name = Debug;
+		};
+		9915173528F7EC0400B98321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CLC5THH3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timothy.TKDragAndDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKDragAndDrop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TKDragAndDrop";
+			};
+			name = Release;
+		};
+		9915173728F7EC0400B98321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CLC5THH3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timothy.TKDragAndDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKDragAndDrop;
+			};
+			name = Debug;
+		};
+		9915173828F7EC0400B98321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CLC5THH3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timothy.TKDragAndDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKDragAndDrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991516F928F7EC0000B98321 /* Build configuration list for PBXProject "TKDragAndDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9915172E28F7EC0400B98321 /* Debug */,
+				9915172F28F7EC0400B98321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9915173028F7EC0400B98321 /* Build configuration list for PBXNativeTarget "TKDragAndDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9915173128F7EC0400B98321 /* Debug */,
+				9915173228F7EC0400B98321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9915173328F7EC0400B98321 /* Build configuration list for PBXNativeTarget "TKDragAndDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9915173428F7EC0400B98321 /* Debug */,
+				9915173528F7EC0400B98321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9915173628F7EC0400B98321 /* Build configuration list for PBXNativeTarget "TKDragAndDropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9915173728F7EC0400B98321 /* Debug */,
+				9915173828F7EC0400B98321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9915170D28F7EC0000B98321 /* TKDragAndDrop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9915170E28F7EC0000B98321 /* TKDragAndDrop.xcdatamodel */,
+			);
+			currentVersion = 9915170E28F7EC0000B98321 /* TKDragAndDrop.xcdatamodel */;
+			path = TKDragAndDrop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 991516F628F7EC0000B98321 /* Project object */;
+}
