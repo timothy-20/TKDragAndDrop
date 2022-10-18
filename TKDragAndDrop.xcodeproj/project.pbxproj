@@ -18,6 +18,11 @@
 		9915172128F7EC0400B98321 /* TKDragAndDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915172028F7EC0400B98321 /* TKDragAndDropTests.m */; };
 		9915172B28F7EC0400B98321 /* TKDragAndDropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915172A28F7EC0400B98321 /* TKDragAndDropUITests.m */; };
 		9915172D28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915172C28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m */; };
+		9915173F28F7F03700B98321 /* TKCustomTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915173E28F7F03700B98321 /* TKCustomTableViewDataSource.m */; };
+		9915174228F7F06300B98321 /* TKCustomTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915174128F7F06300B98321 /* TKCustomTableViewDelegate.m */; };
+		9915174628F7F2AD00B98321 /* TKCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915174528F7F2AD00B98321 /* TKCustomTableViewCell.m */; };
+		9915174928F9586200B98321 /* TKCustomTableViewDragAndDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915174828F9586200B98321 /* TKCustomTableViewDragAndDrop.m */; };
+		9915176028FD310300B98321 /* TKCustomItemProviderAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915175F28FD310300B98321 /* TKCustomItemProviderAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,16 @@
 		9915172628F7EC0400B98321 /* TKDragAndDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKDragAndDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9915172A28F7EC0400B98321 /* TKDragAndDropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDragAndDropUITests.m; sourceTree = "<group>"; };
 		9915172C28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDragAndDropUITestsLaunchTests.m; sourceTree = "<group>"; };
+		9915173D28F7F03700B98321 /* TKCustomTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TKCustomTableViewDataSource.h; path = "../../../../Objective-C Projects/TKDragAndDrop/TKDragAndDrop/Delegate/TKCustomTableViewDataSource.h"; sourceTree = "<group>"; };
+		9915173E28F7F03700B98321 /* TKCustomTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TKCustomTableViewDataSource.m; path = "../../../../Objective-C Projects/TKDragAndDrop/TKDragAndDrop/Delegate/TKCustomTableViewDataSource.m"; sourceTree = "<group>"; };
+		9915174028F7F06300B98321 /* TKCustomTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TKCustomTableViewDelegate.h; path = "../../../../Objective-C Projects/TKDragAndDrop/TKDragAndDrop/Delegate/TKCustomTableViewDelegate.h"; sourceTree = "<group>"; };
+		9915174128F7F06300B98321 /* TKCustomTableViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TKCustomTableViewDelegate.m; path = "../../../../Objective-C Projects/TKDragAndDrop/TKDragAndDrop/Delegate/TKCustomTableViewDelegate.m"; sourceTree = "<group>"; };
+		9915174428F7F2AD00B98321 /* TKCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TKCustomTableViewCell.h; path = "../../../../Objective-C Projects/TKDragAndDrop/TKDragAndDrop/Cell/TKCustomTableViewCell.h"; sourceTree = "<group>"; };
+		9915174528F7F2AD00B98321 /* TKCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TKCustomTableViewCell.m; path = "../../../../Objective-C Projects/TKDragAndDrop/TKDragAndDrop/Cell/TKCustomTableViewCell.m"; sourceTree = "<group>"; };
+		9915174728F9586200B98321 /* TKCustomTableViewDragAndDrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TKCustomTableViewDragAndDrop.h; path = "../../../../Objective-C Projects/TKDragAndDrop/TKDragAndDrop/Delegate/TKCustomTableViewDragAndDrop.h"; sourceTree = "<group>"; };
+		9915174828F9586200B98321 /* TKCustomTableViewDragAndDrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TKCustomTableViewDragAndDrop.m; path = "../../../../Objective-C Projects/TKDragAndDrop/TKDragAndDrop/Delegate/TKCustomTableViewDragAndDrop.m"; sourceTree = "<group>"; };
+		9915175E28FD310300B98321 /* TKCustomItemProviderAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCustomItemProviderAdapter.h; sourceTree = "<group>"; };
+		9915175F28FD310300B98321 /* TKCustomItemProviderAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKCustomItemProviderAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +121,9 @@
 		9915170028F7EC0000B98321 /* TKDragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
+				9915175D28FD30DB00B98321 /* Item */,
+				9915174328F7F28F00B98321 /* Cell */,
+				9915173928F7EC3500B98321 /* Delegate */,
 				9915170128F7EC0000B98321 /* AppDelegate.h */,
 				9915170228F7EC0000B98321 /* AppDelegate.m */,
 				9915170428F7EC0000B98321 /* SceneDelegate.h */,
@@ -137,6 +155,37 @@
 				9915172C28F7EC0400B98321 /* TKDragAndDropUITestsLaunchTests.m */,
 			);
 			path = TKDragAndDropUITests;
+			sourceTree = "<group>";
+		};
+		9915173928F7EC3500B98321 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9915173D28F7F03700B98321 /* TKCustomTableViewDataSource.h */,
+				9915173E28F7F03700B98321 /* TKCustomTableViewDataSource.m */,
+				9915174028F7F06300B98321 /* TKCustomTableViewDelegate.h */,
+				9915174128F7F06300B98321 /* TKCustomTableViewDelegate.m */,
+				9915174728F9586200B98321 /* TKCustomTableViewDragAndDrop.h */,
+				9915174828F9586200B98321 /* TKCustomTableViewDragAndDrop.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		9915174328F7F28F00B98321 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9915174428F7F2AD00B98321 /* TKCustomTableViewCell.h */,
+				9915174528F7F2AD00B98321 /* TKCustomTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9915175D28FD30DB00B98321 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				9915175E28FD310300B98321 /* TKCustomItemProviderAdapter.h */,
+				9915175F28FD310300B98321 /* TKCustomItemProviderAdapter.m */,
+			);
+			path = Item;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +320,14 @@
 			files = (
 				9915171728F7EC0300B98321 /* main.m in Sources */,
 				9915170928F7EC0000B98321 /* ViewController.m in Sources */,
+				9915173F28F7F03700B98321 /* TKCustomTableViewDataSource.m in Sources */,
 				9915170328F7EC0000B98321 /* AppDelegate.m in Sources */,
+				9915174228F7F06300B98321 /* TKCustomTableViewDelegate.m in Sources */,
+				9915174928F9586200B98321 /* TKCustomTableViewDragAndDrop.m in Sources */,
 				9915170628F7EC0000B98321 /* SceneDelegate.m in Sources */,
+				9915176028FD310300B98321 /* TKCustomItemProviderAdapter.m in Sources */,
 				9915170F28F7EC0000B98321 /* TKDragAndDrop.xcdatamodeld in Sources */,
+				9915174628F7F2AD00B98321 /* TKCustomTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
